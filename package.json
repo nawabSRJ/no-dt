@@ -1,0 +1,39 @@
+{
+  "name": "no-dt",
+  "version": "0.1.0",
+  "description": "A library to detect and block browser developer tools",
+  "author": "Srajan Saxena",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "react"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "lint": "eslint src react --ext .ts,.tsx",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "devtools",
+    "security",
+    "protection",
+    "react",
+    "nextjs"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "eslint": "^9.0.0",
+    "rollup": "^4.50.0",
+    "typescript": "^5.0.0"
+  }
+}
