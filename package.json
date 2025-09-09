@@ -1,6 +1,6 @@
 {
   "name": "no-dt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A library to detect and block browser developer tools",
   "author": "Srajan Saxena",
   "license": "MIT",
