@@ -8,7 +8,9 @@ export interface GuardOptions {
   checkInterval?: number;
   viewportThreshold?: number;
   pauseThreshold?: number;
-  
+  // Add these new options
+  refreshOnDetect?: boolean;    // Enable auto page refresh
+  refreshDelay?: number;        // Delay before refresh in milliseconds
   // Blocking options
   blockContextMenu?: boolean;
   blockShortcuts?: boolean;

@@ -35,8 +35,8 @@ export const createConsoleDetector = () => {
       }
     });
     
-    console.log(element);
-    console.clear(); // Clean up after ourselves
+    console.log(element);  
+    // console.clear(); // Clean up after ourselves
     
     return detected;
   };

@@ -6,6 +6,8 @@ export interface GuardOptions {
     checkInterval?: number;
     viewportThreshold?: number;
     pauseThreshold?: number;
+    refreshOnDetect?: boolean;
+    refreshDelay?: number;
     blockContextMenu?: boolean;
     blockShortcuts?: boolean;
     showOverlay?: boolean;

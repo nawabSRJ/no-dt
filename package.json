@@ -25,6 +25,14 @@
     "react",
     "nextjs"
   ],
+  "homepage": "https://github.com/nawabSRJ/no-dt#readme",
+  "bugs": {
+    "url": "https://github.com/nawabSRJ/no-dt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nawabSRJ/no-dt.git"
+  },
   "peerDependencies": {
     "react": ">=16.8.0"
   },
